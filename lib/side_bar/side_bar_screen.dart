@@ -17,10 +17,9 @@ class SideBar extends StatelessWidget {
             child: Image.asset("assets/images/logo.png"),
           ),
           ListTileDrawer(
-            title: "Dashbord",
-            svgSrc: "assets/icons/menu_dashbord.svg",
-            press: () {},
-          ),
+              title: "Dashbord",
+              svgSrc: "assets/icons/menu_dashbord.svg",
+              press: () {}),
           ListTileDrawer(
             title: "Transaction",
             svgSrc: "assets/icons/menu_tran.svg",
